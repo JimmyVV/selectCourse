@@ -1,0 +1,77 @@
+@import '_normalize.scss','var.scss';
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    font-family: $font;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #F3F3F3;
+    padding-top: 58px;
+    box-sizing:border-box;
+    text-align: center;
+}
+
+
+.row {
+    text-align: center;
+    margin:15px 0;
+    width:  330px;
+    display: inline-block;
+    input,
+    button {
+        margin: 0 auto;
+        display: inline-block;
+    }
+    input{
+        font-size: 1.6rem;
+        padding:4px;
+        padding-left:8px;
+        border-radius: 4px;
+        outline: 0;
+        border:1px solid #999;
+        box-sizing:border-box;
+    }
+    .studentId,
+    .password{
+        width:$width;
+        height: 35px;
+
+    }
+    .confirm{
+        width:107px;
+    }
+    &.getCode{
+        text-align: left;
+        .confirm{
+            margin-left:$leftPadding;
+        }
+    }
+    .login{
+        width:$width;
+        height: 35px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        background-color:#58C758;
+        color:#Fff;
+        outline: none;
+        border:0;
+        border-radius:4px;
+    }
+    .confirmPng{
+        width:auto;
+        height: 20px;
+    }
+}
+footer{
+    text-align: left;
+    display: inline-block;
+    width:330px;
+    padding-left: $leftPadding;
+    box-sizing:border-box;
+    color:#756E6E;
+}
+

@@ -1,0 +1,53 @@
+@import '_normalize.scss','var.scss';
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    font-family: $font;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #F3F3F3;
+    padding-top: 58px;
+    box-sizing:border-box;
+    text-align: center;
+}
+
+.panel{
+	width:80%;
+	margin:0 auto;
+	background-color:#E0E0E0;
+	border:1px solid #BBB4B4;
+}
+header{
+	text-align: left;
+	padding: 5px;
+	padding-left: 10px;
+	border-bottom:1px solid #BBB4B4;
+	h2{
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+}
+article{
+	margin-top: 10px;
+	button{
+		width:90%;
+		height: 35px;
+		font-size: 1.6rem;
+		background-color: #58C758;
+		 color:#Fff;
+        outline: none;
+        border:0;
+        border-radius:4px;
+	}
+	p{
+		text-align: left;
+		color:#999;
+		margin-left:#615B5B;
+		margin-left: 15px;
+	}
+}
